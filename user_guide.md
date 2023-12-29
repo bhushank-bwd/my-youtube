@@ -5,14 +5,7 @@
 - Discuss features
 - Techstack
 
-> UI and Data layers
-> TailwindCSS/BS5
-> formik/other
-> router
-> bundler
-> redux/context
-> testing -> JEST
-> Discuss it in 5 minutes
+| UI and Data layers | TailwindCSS/BS5 | formik/other | router | bundler| redux/context | testing -> JEST | Discuss it in 5 minutes
 
 ## Plan (5 min)
 
