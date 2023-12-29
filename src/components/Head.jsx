@@ -1,10 +1,16 @@
 import React from "react";
 import "boxicons";
+import { useDispatch } from "react-redux";
+import { toggleMenu } from "./utils/appSlice";
 const Head = () => {
+  const dispatch = useDispatch();
+  const toggleleftMenu = () => {
+    dispatch(toggleMenu());
+  };
   return (
     <div className="grid grid-flow-col p-5 m-2 shadow-md">
       <div className="flex col-span-1 cursor-pointer">
-        <div className="h-8 align-middle pr-1">
+        <div className="h-8 align-middle pr-1" onClick={toggleleftMenu}>
           <box-icon name="menu"></box-icon>
         </div>
         <a href="/">
