@@ -1,4 +1,4 @@
-# Bonus 1 machine Coding For Youtube
+# Bonus 1 Machine Coding For Youtube
 
 ## Requirement clarification from interviewer
 
@@ -16,7 +16,7 @@
 
 ## Plan (5 min)
 
-> define skeloton of component and rough diagram on paper
+> Define skeloton of component and rough diagram on paper
 
 ## Installation
 
@@ -67,3 +67,13 @@ No curly bracket if single extension is used
 ```
 
 Check it is working properly
+
+# Buid redux Store
+
+```sh
+npm i @reduxjs/toolkit
+npm i react-redux
+```
+
+> Add store and Slice
+> Provide store
