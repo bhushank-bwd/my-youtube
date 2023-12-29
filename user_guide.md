@@ -1,18 +1,18 @@
 # Bonus 1 machine Coding For Youtube
 
-## requirement clarification from interviewer
+## Requirement clarification from interviewer
 
-- discuss features
+- Discuss features
 - Techstack
 
-  > UI and Data layers
-  > TailwindCSS/BS5
-  > formik/other
-  > router
-  > bundler
-  > redux/context
-  > testing -> JEST
-  > Discuss it in 5 minutes
+> UI and Data layers
+> TailwindCSS/BS5
+> formik/other
+> router
+> bundler
+> redux/context
+> testing -> JEST
+> Discuss it in 5 minutes
 
 ## Plan (5 min)
 
@@ -30,7 +30,7 @@ Search for reportWebVitals.js, react strict mode
 
 ## Clear unwanted code
 
-    > clear unwanted code in app.js & app.js and check all is working
+> Clear unwanted code in app.js & app.js and check all is working
 
 ## setup tailwind
 
@@ -39,20 +39,22 @@ npm i -D tailwindcss
 npx tailwind init
 ```
 
-no need to install postcss because create react-app takes care of it
+No need to install postcss because create react-app takes care of it
 
 > Add file extension in tailwindcss.config.js
 
 ```
-"./src/**/*.{js,jsx}"
+"./src/**/*.{js,jsx,ts,tsx}"
 ```
 
-no curly bracket if single extension is used
+No curly bracket if single extension is used
 
-> clear app.css and following Code
-
-```
+> Clear app.css and following Code
 
 ```
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+```
 
-check it is working properly
+Check it is working properly
