@@ -18,6 +18,7 @@ const VideoContainer = () => {
   if (!videoList.length > 0) return null;
   return (
     <div className="flex flex-wrap">
+      {videoList.length && <HigerOrderAddComponent item={videoList[0]} />}
       {videoList.map((item, index) => {
         return <VideoItem item={item} key={item.id} />;
       })}
@@ -25,4 +26,11 @@ const VideoContainer = () => {
   );
 };
 
+const HigerOrderAddComponent = ({ item }) => {
+  return (
+    <div className="border border-red-400">
+      <VideoItem key={`add_one`} item={item} />
+    </div>
+  );
+};
 export default VideoContainer;
