@@ -69,7 +69,7 @@ No curly bracket if single extension is used
 
 Check it is working properly
 
-# Buid redux Store
+## Buid redux Store
 
 ```sh
 npm i @reduxjs/toolkit
@@ -78,3 +78,9 @@ npm i react-redux
 
 > Add store and Slice
 > Provide store
+
+## Buid react router
+
+```sh
+npm i react-router-dom
+```

@@ -13,15 +13,16 @@ const Sidebar = () => {
       </ul>
       <h1 className="text-xl font-bold pt-5">Subscription</h1>
       <ul>
-        <li>First</li>
-        <li>Second</li>
-        <li>Fourth</li>
+        <li>Music</li>
+        <li>Sports</li>
+        <li>Gaming</li>
+        <li>Movies</li>
       </ul>
       <h1 className="text-xl font-bold pt-5">Watch later</h1>
       <ul>
-        <li>First</li>
-        <li>Second</li>
-        <li>Fourth</li>
+        <li>BB ki vines</li>
+        <li>Akshay Saini</li>
+        <li>Browse Channels</li>
       </ul>
     </div>
   );
