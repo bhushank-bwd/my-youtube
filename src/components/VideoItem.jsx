@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 const VideoItem = (props) => {
-  const { snippet, contentDetails, id, statistics } = props.item;
+  const { snippet, id, statistics } = props.item;
   const views = new Intl.NumberFormat("en-IN", {
     maximumSignificantDigits: 3,
   }).format(statistics.viewCount);

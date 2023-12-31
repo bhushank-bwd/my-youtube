@@ -8,6 +8,7 @@ const VideoContainer = () => {
 
   useEffect(() => {
     allVideoList();
+    // eslint-disable-next-line
   }, []);
   const allVideoList = async () => {
     let res = await fetch(URL);

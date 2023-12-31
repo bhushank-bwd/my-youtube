@@ -4,7 +4,6 @@ import Head from "./components/Head";
 import { Provider } from "react-redux";
 import store from "./components/utils/store";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import Sidebar from "./components/Sidebar";
 import MainContainer from "./components/MainContainer";
 import WatchPage from "./components/WatchPage";
 

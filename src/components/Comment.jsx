@@ -56,7 +56,7 @@ const Comment = () => {
             <div key={index}>
               <CommentItem commentDetail={detail} />
               {detail.replies && detail.replies.length > 0 && (
-                <div className="p-1 m-7 border-l-2 border-black">
+                <div className="p-1 ml-7 border-l-2 border-black">
                   <CommentList list={detail.replies} />
                 </div>
               )}
@@ -67,7 +67,7 @@ const Comment = () => {
     );
   };
   return (
-    <div>
+    <div className="w-1/2">
       <CommentList list={commentData} />
     </div>
   );

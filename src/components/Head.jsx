@@ -23,6 +23,7 @@ const Head = () => {
     return () => {
       clearTimeout(timer);
     };
+    // eslint-disable-next-line
   }, [searchQuery]);
   const searchData = async () => {
     console.log("cached", cachedSearch);
@@ -73,7 +74,7 @@ const Head = () => {
             <box-icon name="search-alt-2"></box-icon>
           </button>
         </div>
-        {search && searchList.length && (
+        {search && searchList.length > 0 && (
           <div className="p-2 rounded-md fixed bg-gray-300 align-c w-1/3">
             <ul className="">
               {searchList?.map((item, index) => {
